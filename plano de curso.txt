@@ -1,0 +1,8 @@
+- Guia de Implementações:
+
+Realizar a criação do EA, documentação 
+
+1 - Paginas de Cadastro, perfil, Ranking, contratos, relatórios, anuncios, locais de trabalho, storyboard
+2 - Banco de dados firebase
+3 - Página de Sobre nós, com nossos serviços detalhados e com F.A.Q. 
+4 - 

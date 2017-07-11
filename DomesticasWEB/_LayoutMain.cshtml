@@ -1,6 +1,4 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
+﻿<head>
     <title>Domesticas.com</title>
     <link rel="icon" href="~/img/domesticas2.png" type="image/png">
     <link rel="shortcut icon" href="~/img/domesticas.ico" type="img/x-icon">
@@ -33,31 +31,35 @@
         Theme Name: Domesticas.com
         Author: Bootstrap
     ======================================================= -->
-
 </head>
-
 <body>
-    @RenderBody()
+
     <header>
-        <div class="container text-center  col-lg-2">
+        <div class="navbar-fixed-top col-lg-2" id="header" style="position:relative">
             <div class="well">
                 <img src="~/img/client-pic1.jpg" class="img-circle" height="65" width="65" alt="Avatar">
                 <p><a href="#">José Siqueira</a></p>
                 <span class="nav navbar-right"><a href="#"><i class="fa-sign-out"></i> Sair</a></span>
             </div>
         </div>
+        <nav class=" navbar-default col-lg-10" id="test" style="position:relative">
+            <div class="container" style="position:relative">
+                <ul class="main-nav">
+                    <li><a href="#"><i class="fa-home"></i> Home</a></li>
+                    <li><a href="#"><i class="fa-pencil"></i> Contratos</a></li>
+                    <li><a href="#"><i class="fa-dashboard"></i> Anúncios</a></li>
+                    <li><a href="#"><i class="fa-paste"></i> Relatórios</a></li>
+                </ul>
+                <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
+            </div>
+        </nav>
     </header>
-    <nav class="main-nav-outer col-lg-10" id="test">
-        <div class="container">
-            <ul class="main-nav">
-                <li><a href="#"><i class="fa-home"></i> Home</a></li>
-                <li><a href="#"><i class="fa-pencil"></i> Contratos</a></li>
-                <li><a href="#"><i class="fa-dashboard"></i> Anúncios</a></li>
-                <li><a href="#"><i class="fa-paste"></i> Relatórios</a></li>
-            </ul>
-            <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
-        </div>
-    </nav>
+
+
+   
+
+    
+    @RenderBody()
 
 
     <!--Div abaixo organiza os scripts apenas-->
@@ -173,4 +175,3 @@
 
 </body>
 
-</html>
